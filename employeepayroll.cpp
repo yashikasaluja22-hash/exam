@@ -44,7 +44,7 @@ void display(){
 };
 class developer : public employee{
 protected:
-int netsalary;
+float netsalary;
 public:
   void calculateSalary()
     {
