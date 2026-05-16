@@ -79,7 +79,7 @@ if(choice == 2){
       if(library[i].searchbook(searchtitle)){
         found = true;
         cout << "book found\n";
-        library[i].displaybook();
+        library[i].issuebook();
       }
     }
     if(!found){
