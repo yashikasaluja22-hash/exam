@@ -35,11 +35,11 @@ bool first = true;  // to handle tab spacing correctly
 for(int i = 0; i < arr.size(); i++){
     if(seen.find(arr[i]) == seen.end()){// not seen before
     if(!first){
-        cout << "/t";
+        cout << "\t";
+    }
         cout << arr[i];
         seen.insert(arr[i]);
         first = false;
-    }
 }
 cout << '\n';
 return 0;
